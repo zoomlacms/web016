@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>647</LabelID>
+    <LabelName>通用底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent> &lt;div id="a_copayright"&gt; 版权所有：冀中能源邢东矿  冀ICP备字09016409号
+&lt;a href="{ZL:GetNodeLinkUrl(53)/}"&gt;站点地图&lt;/a&gt; | &lt;a href="{ZL:GetNodeLinkUrl(11)/}"&gt;关于我们&lt;/a&gt; | &lt;a href="{ZL:GetInfoUrl(125)/} "&gt;联系我们&lt;/a&gt; | &lt;a href="/"&gt;链接我们&lt;/a&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

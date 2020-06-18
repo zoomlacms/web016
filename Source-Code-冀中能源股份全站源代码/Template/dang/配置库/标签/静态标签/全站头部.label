@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>628</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="top_box"&gt;
+&lt;div id="top_line"&gt;
+
+   &lt;div id="top_left"&gt;
+   &lt;img src="{$CssDir/}images/img_1.jpg"&gt;
+ 
+    &lt;script language="javascript"&gt;
+    var week;
+    if(new Date().getDay()==0)          week="星期日"
+    if(new Date().getDay()==1)          week="星期一"
+    if(new Date().getDay()==2)          week="星期二"
+    if(new Date().getDay()==3)          week="星期三"
+    if(new Date().getDay()==4)          week="星期四"
+    if(new Date().getDay()==5)          week="星期五"
+    if(new Date().getDay()==6)          week="星期六"
+    document.write("今天是："+new Date().getYear()+"年"+(new Date().getMonth()+1)+"月"+new Date().getDate()+"日 "+week);
+    &lt;/script&gt;   &lt;/div&gt;
+   &lt;div id="top_right"&gt;
+     &lt;ul&gt;
+        &lt;li&gt;{ZL:Big5()/}&lt;/li&gt;
+       
+        &lt;li&gt;&lt;a href="javascript:window.external.addFavorite('{$SiteURL/}','{$SiteName/}');"&gt;加入收藏&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a  onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('{$SiteURL/}');" href="#"&gt;设为首页&lt;/a&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+     
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--top1 end--&gt;
+  &lt;div id="banner"&gt;&lt;a href="/" id="logo"&gt;&lt;/a&gt;&lt;/div&gt;
+  &lt;div id="nav_bg"&gt;
+&lt;li class="button nav_bgli"&gt;&lt;a href="/"&gt;网站首页&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button1 nav_bgli"&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank"&gt;新闻动态&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button2 nav_bgli"&gt;&lt;a href="{ZL:GetNodeLinkUrl(22)/}" target="_blank"&gt;领导讲话&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button2 nav_bgli"&gt;&lt;a href="{ZL:GetNodeLinkUrl(135)/}" target="_blank"&gt;外媒视角&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button3 nav_bgli"&gt;&lt;a href="{ZL:GetNodeLinkUrl(8)/}" target="_blank"&gt;基层动态&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button3 nav_bgli"&gt;
+&lt;a href="{ZL:GetNodeLinkUrl(136)/}" target="_blank"&gt;企业管理&lt;/a&gt;
+&lt;div class="hiddendiv"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(32)/}" target="_blank"&gt;安全生产&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(139)/}" target="_blank"&gt;经营管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(140)/}" target="_blank"&gt;科技创新&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(141)/}" target="_blank"&gt;重大项目&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(142)/}" target="_blank"&gt;综合治理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(27)/}" target="_blank"&gt;企业文化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(92)/}" target="_blank"&gt;规章制度&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="button3 nav_bgli"&gt;
+&lt;a href="{ZL:GetNodeLinkUrl(137)/}" target="_blank"&gt;政工工作&lt;/a&gt;
+&lt;div class="hiddendiv"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(143)/}" target="_blank"&gt;党建工作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(144)/}" target="_blank"&gt;宣传工作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(145)/}" target="_blank"&gt;纪检监察&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(80)/}" target="_blank"&gt;工会工作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(35)/}" target="_blank"&gt;七彩青春&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(146)/}" target="_blank"&gt;和谐矿区&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="button4 nav_bgli"&gt;&lt;a href="{ZL:GetNodeLinkUrl(4)/}" target="_blank"&gt;阳光平台&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button5 nav_bgli"&gt;&lt;a href="{ZL:GetNodeLinkUrl(138)/}" target="_blank"&gt;公文刊物&lt;/a&gt;&lt;/li&gt;
+&lt;li class="button6 nav_bgli"&gt;&lt;a href="/guest/" target="_blank"&gt;领导信箱&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

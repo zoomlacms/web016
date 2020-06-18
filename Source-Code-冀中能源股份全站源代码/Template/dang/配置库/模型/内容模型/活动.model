@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>25</ModelID>
+    <ModelName>活动</ModelName>
+    <Description />
+    <TableName>ZL_C_active</TableName>
+    <ItemName>活动</ItemName>
+    <ItemUnit>次</ItemUnit>
+    <ItemIcon>Edit.gif</ItemIcon>
+    <ModelType>1</ModelType>
+    <ContentModule>/内容页/默认活动内容页.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>false</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>1</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail />
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

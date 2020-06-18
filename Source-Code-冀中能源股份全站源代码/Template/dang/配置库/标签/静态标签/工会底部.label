@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>644</LabelID>
+    <LabelName>工会底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent> &lt;div id="friend" style="padding:0px 10px; background:#F2F2F2; border:1px solid #E6E6E6; border-top:2px solid #CC0001"&gt;
+      &lt;span class="yq_zi"&gt;友情链接&lt;/span&gt;
+      &lt;span&gt;&lt;select  onchange="openUrl(this);"&gt;&lt;option value=""&gt;中央直属机构&lt;/option&gt;{ZL.Label id="友情链接列表选项" ShowNum=30" NodeID="14" /}&lt;/select&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;select  onchange="openUrl(this);"&gt;&lt;option  value=""&gt;国务院各部委&lt;/option&gt;{ZL.Label id="友情链接列表选项" ShowNum=30" NodeID="15" /}&lt;/select&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;select  onchange="openUrl(this);"&gt;&lt;option  value=""&gt;地方政府网站&lt;/option&gt;{ZL.Label id="友情链接列表选项" ShowNum=30" NodeID="16" /}&lt;/select&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;select  onchange="openUrl(this);"&gt;&lt;option  value=""&gt;重点新闻网站&lt;/option&gt;{ZL.Label id="友情链接列表选项" ShowNum=30" NodeID="17" /}&lt;/select&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;select  onchange="openUrl(this);"&gt;&lt;option  value=""&gt;中国共产党新闻网分网&lt;/option&gt;{ZL.Label id="友情链接列表选项" ShowNum=30" NodeID="18" /}&lt;/select&gt;&lt;/span&gt;
+   &lt;/div&gt;
+ &lt;div class="clear"&gt;&lt;/div&gt;
+ &lt;div id="bot_copy"&gt;
+ &lt;a href="/" title="精神文明建设"&gt;&lt;img src="{$CssDir/}images/Trade/logo.jpg" /&gt;&lt;/a&gt;
+ {ZL.Label id="通用底部"/} 
+ &lt;/div&gt;
+ 
+&lt;script&gt;function openUrl(url){
+var strUrl = url.value;
+if(strUrl.length &gt; 0){
+window.open(strUrl);
+}
+}
+function pfopen(url){
+ 
+window.open(url);
+ 
+}
+&lt;/script&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

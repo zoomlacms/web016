@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>655</LabelID>
+    <LabelName>阳光平台图片切换</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="container1"&gt;
+&lt;slid imgUrl="{$CssDir/}Images/ad1.jpg,{$CssDir/}Images/ad2.jpg,{$CssDir/}Images/ad3.jpg,{$CssDir/}Images/ad4.jpg,{$CssDir/}Images/ad5.jpg" 
+type="slidA" 
+title="标题一,标题二,标题三,标题四,标题五" 
+linkUrl="#,#,#,#" width="364" height="246"/&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

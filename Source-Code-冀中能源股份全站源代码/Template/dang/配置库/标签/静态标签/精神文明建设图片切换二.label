@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>638</LabelID>
+    <LabelName>精神文明建设图片切换二</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="container"&gt;
+&lt;slid imgUrl="{$CssDir/}Images/i1.jpg,{$CssDir/}Images/i2.jpg,{$CssDir/}Images/i3.jpg,{$CssDir/}Images/i4.jpg," 
+type="slidA" 
+title="标题一,标题二,标题三,标题四," 
+linkUrl="#,#,#,#" width="320" height="170"/&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

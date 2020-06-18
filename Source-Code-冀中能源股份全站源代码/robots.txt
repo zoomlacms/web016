@@ -1,0 +1,19 @@
+#
+# robots.txt for Zoomla!CMS2
+#
+
+User-agentUser-agent: *
+Disallow: /Manage/
+Disallow: /Admin/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_Themes/
+Disallow: /bin/
+Disallow: /Images/
+Disallow: /Config
+Disallow: /Template/
+Disallow: /User/
+Disallow: /Guest/
+Disallow: /MIS/
+Disallow: /UploadFiles/
+Disallow: /Web.config

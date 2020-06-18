@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>642</LabelID>
+    <LabelName>签章调用标签0229</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>互动标签</LabelCate>
+    <LabelDesc>ZL_Pub_QZ分页标签</LabelDesc>
+    <LabelParam>ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Pub_QZ</LabelTable>
+    <LabelField>PubTitle</LabelField>
+    <LabelWhere />
+    <LabelOrder>PubAddTime DESC</LabelOrder>
+    <LabelContent>{Repeate}&lt;span&gt;
+&lt;img src="/Template/Party/style/images/biaoqing/{Field="PubTitle"/}.jpg" width="78" height="78"  id=MyImage{ZL:jsq}&gt;
+&lt;/span&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

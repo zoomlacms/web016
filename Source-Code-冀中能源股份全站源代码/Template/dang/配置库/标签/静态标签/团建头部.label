@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>646</LabelID>
+    <LabelName>团建头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="build_top"&gt;
+&lt;a href="{ZL:GetNodeLinkUrl(74)/}" title="{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}"&gt;&lt;img src="{$CssDir/}images/build//top.jpg"  alt="{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}"/&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id="build_box"&gt;
+&lt;div id="build_nav"&gt;
+&lt;ul&gt;
+&lt;li class="muen74"&gt;&lt;a href="{ZL:GetNodeLinkUrl(74)/}"&gt;首页&lt;/a&gt;&lt;/li&gt; 
+&lt;li class="muen96"&gt;&lt;a href="{ZL:GetNodeLinkUrl(96)/}"&gt;团建新闻&lt;/a&gt; &lt;/li&gt;  
+&lt;li class="muen97"&gt;&lt;a href="{ZL:GetNodeLinkUrl(97)/}"&gt; 组织机构&lt;/a&gt; &lt;/li&gt; 
+&lt;li class="muen98"&gt;&lt;a href="{ZL:GetNodeLinkUrl(98)/}"&gt;计划总结&lt;/a&gt; &lt;/li&gt; 
+&lt;li class="muen99"&gt;&lt;a href="{ZL:GetNodeLinkUrl(99)/}"&gt;组织活动管理&lt;/a&gt;&lt;/li&gt;  
+&lt;li class="muen100"&gt;&lt;a href="{ZL:GetNodeLinkUrl(100)/}"&gt;团员发展&lt;/a&gt;&lt;/li&gt;  
+&lt;li class="muen101"&gt;&lt;a href="{ZL:GetNodeLinkUrl(101)/}"&gt;荣誉库&lt;/a&gt;&lt;/li&gt;  
+&lt;li class="muen102"&gt;&lt;a href="{ZL:GetNodeLinkUrl(102)/}"&gt; 文件管理&lt;/a&gt; &lt;/li&gt; 
+&lt;li class="muen103"&gt;&lt;a href="{ZL:GetNodeLinkUrl(103)/}"&gt; 规章制度&lt;/a&gt;&lt;/li&gt;  
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;    
+
+&lt;/div&gt;
+</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

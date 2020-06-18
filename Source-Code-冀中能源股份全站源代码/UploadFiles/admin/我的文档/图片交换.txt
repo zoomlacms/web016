@@ -1,0 +1,40 @@
+<script type="text/javascript"> 
+function switchTab(mark,index,count) {
+	    var curTab = document.getElementById("tab_"+mark+index)
+		var curList = document.getElementById("list_"+mark+index) 
+		for(var i=0;i<=count;i++) { 
+			var tabObj = document.getElementById("tab_"+mark+i) ;
+			var listObj = document.getElementById("list_"+mark+i) ;
+			if (i != index) {
+				if (tabObj) {tabObj.className = "";}
+				if (listObj) {listObj.style.display = "none" ;}
+			}
+		}
+ 
+		if (curTab) {curTab.cl
+assName = "zc_on" ;}
+		if (curList) {curList.style.display = "block" ;}
+		return false;
+	}
+ 
+function onmover(){	
+	}
+</script>
+
+<ul>
+<li><span onMouseOver="switchTab(2,1,4)" id="tab_21" >新闻</span></li>      <!--在span范围内都有效-->
+<li><span onMouseOver="switchTab(2,2,4)" id="tab_22" >评论</span></li>
+<li><span onMouseOver="switchTab(2,3,4)" id="tab_23" >博闻</span></li>
+<li><span onMouseOver="switchTab(2,4,4)
+" id="tab_24" >微薄</span></li>
+</ul>
+
+
+<div id="qi">
+<div style="display:block;"id="list_21"><a href="/ColumnList.aspx?NodeID=51"><img src="/Template/edu/style/images/ElitL_r.jpg" /></a></div>
+<div style="display:none;" id="list_22"><a href="/ColumnList.aspx?NodeID=51"><img src="/Template/edu/style/images/xx1.jpg" /></a></div>		
+<div style="display:none;" id="list_23"><a hr
+ef="/ColumnList.aspx?NodeID=51"><img src="/Template/edu/style/images/xx12.jpg" /></a></div>	
+<div style="display:none;" id="list_24"><a href="/ColumnList.aspx?NodeID=51"><img src="/Template/edu/style/images/xx11.jpg" /></a></div>
+<div class="clear"></div>
+</div>

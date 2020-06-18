@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="test_ChatAPI2, App_Web_zruqvkkl" enableEventValidation="false" viewStateEncryptionMode="Never" %>

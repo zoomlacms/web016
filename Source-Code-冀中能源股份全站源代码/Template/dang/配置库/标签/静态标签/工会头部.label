@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>643</LabelID>
+    <LabelName>工会头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent> &lt;div id="Trade_t"&gt;
+ &lt;a href="{ZL:GetNodeLinkUrl(82)/}"&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div id="Trade_nav"&gt;
+  &lt;ul&gt;
+  &lt;li class="Trade_n0"&gt;&lt;a href="{ZL:GetNodeLinkUrl(82)/}"&gt;首 页&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="Trade_n01"&gt;&lt;a href="{ZL:GetNodeLinkUrl(83)/}"&gt;组织机构&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n02"&gt;&lt;a href="{ZL:GetNodeLinkUrl(84)/}"&gt;计划总结&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n03"&gt;&lt;a href="{ZL:GetNodeLinkUrl(85)/}"&gt;代表大会&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n04"&gt;&lt;a href="{ZL:GetNodeLinkUrl(86)/}"&gt;合同管理 &lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n05"&gt;&lt;a href="{ZL:GetNodeLinkUrl(87)/}"&gt;职工管理&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n06"&gt;&lt;a href="{ZL:GetNodeLinkUrl(88)/}"&gt;技术创新&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n07"&gt;&lt;a href="{ZL:GetNodeLinkUrl(89)/}"&gt;劳动保护&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="Trade_n08"&gt;&lt;a href="{ZL:GetNodeLinkUrl(90)/}"&gt;荣誉库 &lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n09"&gt;&lt;a href="{ZL:GetNodeLinkUrl(91)/}"&gt;文件管理&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="Trade_n10"&gt;&lt;a href="{ZL:GetNodeLinkUrl(92)/}"&gt;规章制度&lt;/a&gt;&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;/div&gt;
+   &lt;div id="t_user"&gt;
+    &lt;div id="t_user_l"&gt;
+   &lt;span&gt;&lt;a href="mailto:{$WebmasterEmail/}"&gt;主席信箱&lt;/a&gt;&lt;/span&gt;
+ &lt;script language="JavaScript" type="text/JavaScript"&gt;
+var day="";
+var month="";
+var ampm="";
+var ampmhour="";
+var myweekday="";
+var year="";
+mydate=new Date();
+myweekday=mydate.getDay();
+mymonth=mydate.getMonth()+1;
+myday= mydate.getDate();
+myyear= mydate.getYear();
+year=(myyear &gt; 200) ? myyear : 1900 + myyear;
+if(myweekday == 0)
+weekday=" 星期日 ";
+else if(myweekday == 1)
+weekday=" 星期一 ";
+else if(myweekday == 2)
+weekday=" 星期二 ";
+else if(myweekday == 3)
+weekday=" 星期三 ";
+else if(myweekday == 4)
+weekday=" 星期四 ";
+else if(myweekday == 5)
+weekday=" 星期五 ";
+else if(myweekday == 6)
+weekday=" 星期六 ";
+document.write(year+"年"+mymonth+"月"+myday+"日");
+&lt;/script&gt;
+   &lt;/div&gt;
+    &lt;div id="t_user_r"&gt;
+ &lt;iframe src="/login1.aspx" frameborder="0" width="470" height="30"&gt;&lt;/iframe&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

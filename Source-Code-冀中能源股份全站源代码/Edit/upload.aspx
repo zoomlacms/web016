@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="upload, App_Web_0bvyrxda" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

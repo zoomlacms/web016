@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>649</LabelID>
+    <LabelName>根据内容ID输出下载模型信息</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>Gid,1,1,内容ID|ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_soft on ZL_CommonModel.ItemID=ZL_C_soft.ID</LabelTable>
+    <LabelField>ZL_CommonModel.CreateTime,ZL_CommonModel.GeneralID,ZL_CommonModel.Inputer,ZL_CommonModel.Title,ZL_C_soft.content,ZL_C_soft.DownUrl,ZL_C_soft.DownUrlthum</LabelField>
+    <LabelWhere>ZL_CommonModel.GeneralID=@Gid</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>&lt;h1&gt;{Field="Title"/}&lt;/h1&gt;
+&lt;div class="weiz"&gt;发布人：{Field="Inputer"/} 发布时间：{Field="CreateTime"/}&lt;/div&gt;
+&lt;div id="content"&gt;{Field="content"/}&lt;/div&gt;
+&lt;div id="sheng"&gt;&lt;span id="sheng01"&gt; &lt;a href="javascript:void(0)" onclick="sheng('{Field="GeneralID"/}','审核')"&gt;审核&lt;/a&gt;&lt;/span&gt;
+&lt;span id="sheng02"&gt;
+&lt;a href="javascript:void(0)" onclick="sheng('{Field="GeneralID"/}','退稿')"&gt;退稿&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+{ZL:SplitDown({Field="DownUrl"/},下载)/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>
